@@ -2,19 +2,18 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>
+        Landing Page Otista Motor
+    </title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/7bd248f835.js" crossorigin="anonymous"></script>
-
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <!-- CSS Files -->
+    <link href="css/argon-design-system.css?v=1.2.2" rel="stylesheet" />
 
     <!-- My Style -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -23,27 +22,26 @@
     <title>Landing Page Otista Motor</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #78221c">
+<body class="index-page">
+    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg bg-white navbar-light position-sticky top-0 shadow py-2" style="background-color: #78221c">
         <div class="container">
-            <a class="navbar-brand" href=""><i class="fas fa-motorcycle mr-2"></i> Otista Motor</a>
+            <a class="navbar-brand mr-lg-5" href=""><i class="fas fa-motorcycle mr-2"></i> Otista Motor</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <a href="#" class="btn text-light dropdown-toggle" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Login
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
+                            <i class="ni ni-collection d-lg-none"></i>
+                            <span class="nav-link-inner--text">Login</span>
+                          </a>
+                          <div class="dropdown-menu">
                                 <a class="dropdown-item" href="">Pelanggan</a>
                                 <a class="dropdown-item" href="">Admin</a>
                             </div>
-                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">Register <span class="sr-only">(current)</span></a>
@@ -53,12 +51,68 @@
         </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-5 text-light">Solusi service motor, <br>Bersama kami</h1>
-            <a href="" class="daftar btn btn-danger"><strong>Daftar Sekarang</strong></a>
+
+    <div class="wrapper">
+        <div class="section section-hero section-shaped">
+      <div class="page-header">
+        <div class="container shape-container d-flex align-items-center py-lg" style="background-image: url('image/bg.png'); background-size: cover;">
+          <div class="col px-0">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-7 text-center">
+                <h1 class="text-gray-400 display-1">Solusi Service Motor</h1>
+                <h2 class="display-4 font-weight-normal text-gray-400 display-4">Bersama Kami</h2>
+                <div class="btn-wrapper mt-4">
+                  <a class="btn btn-secondary btn-icon mt-3 mb-sm-0" style="width: 200px; background-color: #78221c;">
+                    <span class="btn-inner--text text-white">Login</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="separator separator-bottom separator-skew zindex-100">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
     </div>
+
+      <section>
+      <div class="section features-6">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="info info-horizontal info-hover-primary">
+                <div class="description pl-4">
+                  <h5 class="title">Daftarkan akun</h5>
+                  <p>Pengguna membuka halaman pendaftaran dan memasukkan informasi pribadi seperti nama, email, nomor telepon, dan kata sandi. Setelah validasi informasi dan verifikasi email/nomor telepon, akun pengguna dibuat dan mereka menerima konfirmasi pendaftaran.</p>
+                  <a href="#" class="text-danger">Register Account</a>
+                </div>
+              </div>
+              <div class="info info-horizontal info-hover-primary mt-5">
+                <div class="description pl-4">
+                  <h5 class="title">Masukan data motor</h5>
+                  <p>Pengguna membuka halaman masukan data motor dan memasukkan informasi seperti merek, plat nomor kendaraan dan informasi lainnya. Setelah validasi, data motor disimpan dalam database dan pengguna menerima konfirmasi. Mereka dapat mengakses dan mengelola informasi motor tersebut di masa mendatang.</p>
+                  
+                </div>
+              </div>
+              <div class="info info-horizontal info-hover-primary mt-5">
+                <div class="description pl-4">
+                  <h5 class="title">Service</h5>
+                  <p>Pelanggan mengajukan permintaan service motor melalui telepon, situs web, atau aplikasi. Tim layanan mengatur jadwal dan teknisi melakukan pemeriksaan, perbaikan, atau pemeliharaan. Pelanggan membayar biaya layanan dan menerima motor yang telah selesai diperbaiki atau dirawat dengan baik.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-10 mx-md-auto">
+                <img class="ml-lg-5" src="image/illustrasi.png" width="100%">
+              </div>
+          </div>
+        </div>
+      </div>
+        </section>
 
     <!-- Footer -->
     <footer class="text-center text-lg-start text-white mt-5" style="background-color: #78221c">
@@ -70,7 +124,7 @@
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <!-- Content -->
-                        <h6 class="text-uppercase fw-bold">Otista Motor</h6>
+                        <h6 class="text-uppercase fw-bold text-white">Otista Motor</h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #FFF; height: 2px" />
                         <p>
@@ -82,7 +136,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <!-- Links -->
-                        <h6 class="text-uppercase fw-bold">Produk</h6>
+                        <h6 class="text-uppercase fw-bold text-white">Produk</h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #FFF; height: 2px" />
 
@@ -96,7 +150,7 @@
                     <!-- Grid column -->
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <!-- Links -->
-                        <h6 class="text-uppercase fw-bold">Kontak</h6>
+                        <h6 class="text-uppercase fw-bold text-white">Kontak</h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #FFF; height: 2px" />
 
